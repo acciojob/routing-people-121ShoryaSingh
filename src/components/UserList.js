@@ -18,7 +18,7 @@ export default function UserList() {
     },[]);
 
     if(loading) {
-        return <p>Loading...</p>
+        return <div>Loading...</div>
     }
 
 
